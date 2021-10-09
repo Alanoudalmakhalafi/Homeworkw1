@@ -1,0 +1,88 @@
+.head{
+    filter: opacity(60%) ;   
+    margin: 0% 5%;
+}
+.qt{
+  font-size: 30px;
+  
+  display: flex;
+flex-direction: row;
+justify-content: center;
+text-align: center;
+margin: 5% 34%;
+color:rgb(63, 112, 63);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+border-radius: 90px;
+}
+ .bd{
+    background-color: rgb(237, 250, 242);
+    background-size: auto;
+ }
+.card-img-overlay{
+   text-align: center;
+ margin-top: 20%;
+ color: white;
+ font-style: italic;
+ font-size: 50px;
+ 
+}
+.card-body{
+    text-align: center;
+    
+}
+.card-title{
+    font-size: 50px;
+    
+}
+.cat{
+  display: flex;
+  flex-direction: column;
+padding-top: 0%;
+margin: 5% 10%;
+font-size: 20px;
+
+}
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(87, 85, 85);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    
+    color: rgba(0, 0, 0, 0.5);
+    
+  }
+  .fa-twitter {
+    
+    color:rgba(0, 0, 0, 0.5);
+  }
+  .fa-instagram {
+   
+    color:rgba(0, 0, 0, 0.5);
+  }
+ /* cart  */
+ 
