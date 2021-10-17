@@ -4,7 +4,6 @@
 }
 .qt{
   font-size: 30px;
-  
   display: flex;
 flex-direction: row;
 justify-content: center;
@@ -13,7 +12,18 @@ margin: 5% 34%;
 color:rgb(63, 112, 63);
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 border-radius: 90px;
+
 }
+.hide-show{
+  background-color: rgba(173, 245, 173, 0.589);
+  color:white;
+  border: none;
+  border-radius: 15px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
  .bd{
     background-color: rgb(237, 250, 242);
     background-size: auto;
@@ -34,6 +44,20 @@ border-radius: 90px;
     font-size: 50px;
     
 }
+
+.cart-i ion-icon{
+  vertical-align: bottom;
+  font-size: 20px;
+  padding: 5px;
+  
+}
+
+.cart-i a {
+background-color: rgba(90, 88, 88, 0.87);
+color: white;
+cursor: pointer;
+text-decoration: none;
+}
 .cat{
   display: flex;
   flex-direction: column;
@@ -42,17 +66,23 @@ margin: 5% 10%;
 font-size: 20px;
 
 }
-.card button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: rgb(87, 85, 85);
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
+.card button{
+  background-color: #04aa6d9a;
+  border: #008000;
+  display:block ;
+  margin: 40px auto 80px auto;
+  font-size: 1em ;
+  color: white;
+  text-align: center;
+  cursor: pointer; 
+  border-radius: .3em;
+  padding: .67em .67em;
   }
+
+  .card button:hover{
+    background-color: #008000 ;
+  }
+
   .price {
     color: grey;
     font-size: 22px;
